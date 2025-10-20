@@ -41,26 +41,73 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 ## Part A - Survey Design: 
 
 The number of your chosen topic: `#`
-
+Reply: #1
 Describe the purpose of your survey:
 ```
 write your answer here...
-```
+```REPLY: The purpose of my survey to understand the reasons for  the entry- and lower-level  emplyees to leave the compamy and identify the steps that need to be undertaken to increase retention and employee satisfaction.
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
 write your answer here...
-```
+```REPLY: My target population is all employees of the company in entry- and lower-level positions across all departments.
+Sampling Frame: the company's up-tp-date payroll roster filtered to entry and lower-level job codes and active employees that contains employee ID, de[artment, job level, full/part-time status, hire date and email address.
+Sampling Units: individual emplyees
+Observational unit: individual emplyee's survey response
+
+Sampling Strategy:
+Stratified random sampling with proportional allocation (with oversampling in small but high-turnover departments). 
+Turnover appears to vary by department and job function; stratification by department (and optionally by location or full/part-time status) ensures adequate precision for department-level estimates and avoids under-representing small but important groups. If some departments are small but strategically important (e.g., customer support), oversample them (select fractionally more) and use weights to produce company-wide estimates.
+
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
+Reply:
+1. Which department are you in? 
+
+A. Customer Support / Technical Support                              F. Finance / Legal
+B. Product / Engineering                                             G. IT / Infrastructure
+C. Operations / Logistics                                            H. Sales / Business Development   
+D. Marketing / Communications                                        I. Finance / Legal
+E. HR / Recruiting                                                    
+2. What is your job level?
+A. Entry-level (first role after hire / less than 1 year of experience in this company role)
+B. Mid-level (if applicable; still non-managerial)
+C. Manager / Supervisor.
+3. How long have you worked at this company?
+A. Less than 6 months
+B. 6 months – 12 months
+C. 1 – 2 years
+D. 2 – 5 years
+E. More than 5 years
+4. Please indicate your overall job satisfaction. 
+A. Very dissatisfied
+B. Dissatisfied
+C. Neutral
+D. Satisfied
+E. Very satisfied
+5. Which of the following would make you most likely to stay at the company? Select 1-2 options.
+A. Higher base salary
+B. Clear promotion / career pathway
+C. Better training / onboarding
+D. Improved management / supervisor behavior
+E. Reduced workload
+F. More flexible hours / remote-work options
+G. Better benefits (health, childcare, transit)
+
+6. I have adequate opportunities for career growth and promotion at this company.
+A. Strongly disagree
+B. Disagree
+C. Neither
+D. Agree
+E. Strongly agree
+7. My compensation (base pay + benefits) is competitive compared with similar roles in the market. 
+A. Strongly disagree
+B. Disagree
+C. Neither
+D. Agree
+E. Strongly agree
+
 8. write your question here... (optional)
 9. write your question here... (optional)
 10. write your question here... (optional)
@@ -73,6 +120,26 @@ Identify and describe survey features:
 ```
 write your answer here
 ```
+REPLY:
+
+1. Sample type: Cross-sectional probability sample (General Social Survey cycle — cross-sectional design for 2018). The GSS uses a probability sample drawn from a telephone/dwelling-based frame to produce nationally representative cross-sectional estimates for the civilian, non-institutionalized population aged 15+ in the 10 provinces.
+2. Sample size: The published sample for analyses and many articles based on the 2018 GSS GVP is **16,149 respondent records** (this is the number of usable responses on the Public Use Microdata File). Some internal administrative counts (order of invitations, resolved households, initial responses) are larger, but the PUMF contains 16,149 cases.
+3. Target population: Persons aged 15 years and over living in private households in the ten provinces of Canada (excludes full-time institutional residents and residents of some First Nations reserves per standard coverage notes). The survey measures volunteering, donating, and civic participation in the previous 12 months for respondents
+4. Sampling frame: A combined telephone/dwelling sampling frame: Statistics Canada used a frame that combined landline and cellular telephone numbers derived from the Census and administrative sources and linked telephone numbers to the dwelling frame (records grouping numbers associated with the same address). This frame was constructed to improve coverage of households with telephone numbers, including cell-only households.
+5. Survey mode(s): Data collection used telephone interviewing with an electronic questionnaire (Computer-Assisted Telephone Interviewing — CATI / electronic questionnaire approach). Statistics Canada documentation describes telephone-based collection and use of an electronic questionnaire in the GSS program for this cycle.
+6. Timeline: Field collection for the 2018 GSS GVP took place in the fall of 2018 (interviews were conducted in the latter part of 2018 — documentation lists interviews conducted from September to December 2018 for that cycle). The PUMF and documentation were released in early 2021 (PUMF publication date Jan 26, 2021).
+7. Response rate: The overall response rate reported for the 2018 GSS GVP is approximately 41.9%
+8. Weights: Sampling weights and estimation weights were provided and documented. Statistics Canada applied design weights (inverse of selection probability), nonresponse adjustments, and post-stratification to known population totals (by province, age, sex, and other dimensions as needed). The PUMF documentation includes the weighting variables and explains the weighting policy. Users are cautioned to apply weights for any population-level estimates.
+9. Data processing:  The documentation describes standard survey data processing steps: editing and coding of responses, variance estimation guidance, confidentiality edits for PUMF releases (e.g., suppression and recoding to protect confidentiality), and preparation of public-use microdata with reduced detail. The PUMF user guide documents variable definitions, recodes, and release rules.
+10. Cleaning, imputation, etc: The user guide documents item editing and imputation practices. Missing data handling includes imputation for some key variables (where appropriate) and explicit documentation of “rejected” responding units (some responses were dropped from the PUMF). The guide explains which variables were imputed or recoded and how to identify imputed values in the microdata. Users should consult the PUMF codebook and user guide for variable-level notes. 
+11. Sources of error: Nonresponse bias (response rate ≈ 41–42%); coverage error (households without phones or with unusual housing situations may be undercovered though frame attempts to include cell-only households); measurement error (recall bias for 12-month volunteering/donating questions); sampling error (complex sample design — stratification/cluster effects); and processing error (coding/imputation). The documentation warns about comparing 2018 estimates with earlier cycles due to changes in questionnaire and definitions
+12. Limitations, known biases, etc: Comparability: 2018 GVP was reworked and has changes relative to prior cycles — some estimates are not directly comparable to earlier data because of updated definitions and the move to new collection modes.
+Nonresponse & coverage: Lower response rates create a potential for nonresponse bias even after weighting; some subgroups may be underrepresented. The public-user documentation cautions about small domain estimates (high CVs) and releases minimum cell sizes and variance rules.
+13. Link to documentation and any additional sources used: 
+https://www150.statcan.gc.ca/n1/pub/12-002-x/2014001/article/11901-eng.htm
+https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=4510003101
+https://www150.statcan.gc.ca/n1/en/subjects/society_and_community/volunteering_and_donating
+
 
 ## Rubric
 
